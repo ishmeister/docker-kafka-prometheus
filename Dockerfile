@@ -1,4 +1,4 @@
-FROM wurstmeister/kafka:0.9.0.1
+FROM wurstmeister/kafka:1.0.0
 
 # prometheus
 ADD prometheus-config.yml /usr/app/prometheus-config.yml
